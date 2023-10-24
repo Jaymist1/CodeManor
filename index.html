@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9670383ff4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>CodeManor</title>
+</head>
+<body>
+    <header class="header">
+        <p class="logo">Code<span>Manor</span></p>
+    <nav class="nav-bar">
+        <ul id="menubar">
+            <li>
+               <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+               <a href="#services">Services</a>
+            </li>
+            <li>
+               <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+               <a href="#contact">Contact</a>
+            </li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        
+    </nav>
+    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+</header>
+    <main>
+<section class="hero_section">
+<div class="hero_text">
+    <p>Frontend Developer</p>
+    <h1>Hi, i'm <span> Oyejide</span> Olaoye <br>from West Africa
+</div>
+<div class="hero-image">
+    <img src="images/hero-image.png" alt="">
+</div>
+</section>
+<!-- About Section -->
+<section id="about" class="container-about">
+<div class="About">
+    <div class="about-image">
+        <img src="images/About-pics.png" alt="">
+    </div>
+    <div class="about-mssg">
+        <h1>About <span>Me</span></h1>
+        <p class="text">My name is Oyejide, i am a front-end developer, I work at the intersection of design and technology to create visually appealing and highly functional websites. My main focus is on the user experience (UX), ensuring that the interface is intuitive, efficient, and engaging for the end-users. I collaborate closely with designers, back-end developers, and project managers to bring web designs to life.
+
+            One of the key aspects of my job is converting design mockups into interactive web pages using HTML, CSS, and JavaScript. I meticulously translate the designer's vision into code, ensuring pixel-perfect precision and consistency across different browsers and devices. It's crucial for me to stay up-to-date with the latest web technologies and best practices to provide seamless and modern user experiences. <a href="#">see more</a>
+        </p>
+        <div class="resumes">
+        <p class="active tab" onclick="opentab('skills')">Skills</p>
+        <p class="tab" onclick="opentab('experience')">Experiences</p>
+        <p class="tab" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="tabcontents activetab" id="skills">
+    <ul>
+        <li><Span>Frontend Web Development</Span>
+            <br>HTML, CSS, JavaScript, React.
+        </li>
+        <li><span>FrameWorks/Preprocessor</span> <br>
+        CSS: Tailwind, bootstrapes, Sass <br>
+        JavaScript: React Library, React Native.</li>
+        <li><span>Others</span> <br>
+        Version Control: Git <br>
+        Web Performance Optimization <br>
+        Web Accessibility <br>
+        Cross-browser Compatibility <br>
+        Responsiveness </li>
+    </ul>
+</div>
+<div class="tabcontents" id="experience">
+    <ul>
+        <li><Span>2023-current</Span>
+        <br> 
+        React Training at Dave Grey youTube 
+        </li>
+        <li><span>2022-2023</span> <br>
+        Junior Frontend Developer Internship at StarShip devs</li>
+        <li><span>2020-2022</span> <br>
+            Frontend Training at Mimo 
+        </li>
+    </ul>
+</div>
+
+<div class="tabcontents" id="education">
+    <ul>
+        <li><Span>2020-2022</Span>
+        <br>
+        Certified Frontend Developer at Mimo
+        </li>
+        <li><span>2019-2020</span> 
+            <br>
+            Expert: Photoshop/Video Editor
+        </li>
+        <li><span>2014-2019</span> <br>
+        B.Agric in Animal science at Obafemi Awolowo University. Ile-Ife.</li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h1>MY <span>SERVICES</span></h1>
+    <div class="container">
+        <div class="webdev"> <h2>Website <span>Development</span></h2>
+    <p>Website development is the process of creating and designing a website, from its conception to its implementation and maintenance. It involves various technical aspects, such as coding, programming, and graphic designing, to ensure that the website functions smoothly and effectively.</p><a href="#">Learn more</a></div>
+    <div class="appdev"> <h2>Mobile App <span>Development</span></h2>
+    <p>Mobile app development is the process of creating applications specifically designed to run on mobile devices, 
+        such as smartphones and tablets. It involves a combination of designing, 
+        coding, and testing to ensure that the app functions seamlessly and provides a great user experience.</p><a href="#">Learn more</a></div>
+    <div class="webdev"> <h2>API <span>Integration</span></h2>
+    <p>API integration refers to the process of connecting different software systems, platforms, or applications through the use of APIs (Application Programming Interfaces).
+        APIs act as messengers, allowing different systems to communicate and share data with one another. 
+        </p><a href="#">Learn more</a></div>
+    </div>
+    <div class="learn-more">
+        <a href="#">Learn More</a>
+    </div>
+</section>
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <h1>MY <span>PORTFOLIO</span></h1>
+<div class="portcontainer">
+<div class="port eCommerce">
+    <img src="images/service1.jpg">
+    <div class="subportfolio ecommerce">
+        <h3>E-commerce <span>Website</span></h3>
+        <p>An e-commerce website is an online platform where businesses can sell their products or services directly to customers.</p>
+    </div>
+</div>
+<div class="port News-Website">
+    <img src="images/service2.jpg" alt="">
+<div class="subportfolio news-blog">
+    <h3>News <span>Blog</span></h3>
+    <p>A news blog website is an online platform where individuals or organizations share news stories, articles, and information about current events.
+
+    </p>
+</div>
+</div>
+<div class="port mobile-App">
+    <img src="images/service3.jpg" alt="">
+  <div class="subportfolio MobileApp">  
+    <h3>Mobile <span>Application</span></h3>
+    <p>A mobile application, often referred to as a mobile app, is a software application specifically designed to run on mobile devices such as smartphones and tablets.
+
+    </p>
+</div>
+</dIV>
+</div>
+<div class="port see-more">
+        <a href="#">See more</a> 
+</div>
+</section>
+<!-- Contact me -->
+<section id="contact" class="contact">
+    <h1>CONTACT <span>ME</span></h1>
+    <div class="contact-container">
+<div class="contact-left">
+    <p> <i class="fa-solid fa-envelope"></i><a href="email:Oyejide@codemanor.com">Oyejide@codemanor.com</a></p>
+    <p> <i class="fa-solid fa-phone"></i> <a href="tel:+2348059890337">08059890337</a></p>
+    <div class="social-media">
+        <p>
+       <a href="www.facebook.com/olaoyeoyejidek"><i class="fa-brands fa-facebook"></i></a>
+       <a href="www.twitter.com/jamez_principle"><i class="fa-brands fa-twitter"></i></a>
+       <a href="www.instagram.com/jamez_principle"><i class="fa-brands fa-instagram"></i></a>
+       <a href="www.linkedin.com/OlaoyeOyejide"><i class="fa-brands fa-linkedin"></i></a>
+       </p>
+    </div>
+    <div class="download">
+    <a href="images/Frontend cv.pdf" download>Download CV</a>
+</div>
+</div>
+<div class="contact-right">
+<form name='submit-to-google-sheet'>
+<input type="text" name="Name" placeholder="Your Surname first" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" rows="6" placeholder="Write your messages here"></textarea>
+<button class="btn">Submit</button>
+</form>
+<div id="msg"></div>
+</div>
+</section>
+    </main>
+    <footer class="footer">
+        <p> Copyright &COPY; <span>CodeManor</span></p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
