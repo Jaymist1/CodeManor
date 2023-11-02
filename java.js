@@ -8,9 +8,10 @@ function opentab(tabclick){
     for(clickcontent of tabcontents){
         clickcontent.classList.remove("activetab");
     }
-    event.currentTarget.classList.add("active");
+event.target.classList.add("active");
 document.getElementById(tabclick).classList.add("activetab")
 }
+/* Menu Function */
 const menuBar = document.getElementById("menubar");
 
 function openMenu(){
